@@ -31,7 +31,7 @@ run_shiny(model = "SIR Model (w/out demography)",
           parm0 = c(r = 0.0001, a = 0.3),
           parm_names = c("Transmission rate", "Removal Rate rate"),
           parm_min = c(r = 0, a = 0),
-          parm_max = c(r = 0.01, a = 0.5),
+          parm_max = c(r = 0.005, a = 0.5),
           tmax = 200, 
           values = c('cadetblue4','darkred','darkorchid1'))
 
