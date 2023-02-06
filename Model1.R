@@ -1,4 +1,6 @@
 ## This script runs the model that we build in Part 1 and 2 of the exercises.
+# It runs a model with a constant population size
+
 # It is not necessary for understanding the model, but is useful for visualisation 
 
 
