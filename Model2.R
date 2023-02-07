@@ -36,5 +36,5 @@ run_shiny(model = "SIR Model (Anderson & May)",
           parm_names = c("birth rate", "background death rate", "rate of infection","diseased induced mortality","loss of immunity", " recovery rate"),
           parm_min = c(a = 0 , b = 0, beta = 0, alpha = 0, gamma = 0, v = 0),
           parm_max = c(a = 0.1 , b = 0.1, beta = 0.01, alpha = 0.1, gamma = 0.1, v = 0.1),
-          tmax = 5000, 
+          tmax = 1000, 
           values = c('cadetblue4','darkred','darkorchid1'))
